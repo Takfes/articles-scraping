@@ -1,0 +1,6 @@
+*/
+*.txt
+*.csv
+*.json
+*.gzip
+!parsed_article_urls_medium.csv
