@@ -135,7 +135,7 @@ def newspaper_wrapper(url):
 
 start = time.time()
 parsed_urls = []
-for url in dfsmall.url:
+for url in df.url:
     parsed_urls.append(newspaper_wrapper(url))
 
 end = time.time()
